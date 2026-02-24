@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ramadan 2026</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header>
+  <div class="logo">🌙 Ramadan 2026</div>
+
+  <nav id="navLinks">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#duas">Daily Duas</a>
+    <a href="#">Timings</a>
+  </nav>
+
+  <div class="menu-toggle" id="menuToggle">&#9776;</div>
+</header>
+
+
+<!-- ================= HERO SECTION ================= -->
+<section class="hero">
+
+  <div class="moon"></div>
+
+  <h4 class="subtitle">THE HOLY MONTH</h4>
+
+  <h1 class="arabic">رمضان مبارك</h1>
+  <h2 class="english">Ramadan Mubarak</h2>
+
+  <p class="description">
+    May this Ramadan bring you peace, prosperity, and spiritual growth.
+    May Allah accept your fasts and prayers.
+  </p>
+
+  <div class="countdown">
+    <p class="count-title">TIME REMAINING UNTIL EID-UL-FITR (EST.)</p>
+    <div class="time-box">
+      <div><h3>23</h3><span>DAYS</span></div>
+      <div><h3>14</h3><span>HOURS</span></div>
+      <div><h3>23</h3><span>MINUTES</span></div>
+      <div><h3 class="active">04</h3><span>SECONDS</span></div>
+    </div>
+  </div>
+
+</section>
+
+
+
+<!-- ================= DAILY DUAS SECTION ================= -->
+<section class="duas" id="duas">
+
+  <h4 class="section-subtitle">SPIRITUAL REFLECTION</h4>
+  <h2 class="section-title">Daily Duas</h2>
+
+  <div class="cards">
+
+
+    <div class="card">
+      <h3>Dua for Breaking Fast (Iftar)</h3>
+      <p class="arabic-text">
+        اللهم إني لك صمت وبك آمنت وعليك توكلت وعلى رزقك أفطرت
+      </p>
+      <p>
+        "O Allah! I fasted for You and I believe in You and I put my trust in You and I break my fast with Your sustenance."
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Intention for Fasting (Suhoor)</h3>
+      <p class="arabic-text">
+        وبصوم غدٍ نويت من شهر رمضان
+      </p>
+      <p>
+        "I intend to keep the fast for tomorrow in the month of Ramadan."
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>First Ashra (Mercy)</h3>
+      <p class="arabic-text">
+        رب اغفر وارحم وأنت خير الراحمين
+      </p>
+      <p>
+        "O My Lord forgive and have Mercy and You are the Best of Merciful."
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <h3>Ramadan Mubarak</h3>
+  <p>© 2026 Ramadan Special. All rights reserved.</p>
+</footer>
+
+
+
+<!-- ================= TOGGLE SCRIPT ================= -->
+<script>
+  const toggle = document.getElementById("menuToggle");
+  const nav = document.getElementById("navLinks");
+
+  toggle.onclick = function () {
+    nav.classList.toggle("active");
+  };
+</script>
+
+</body>
+</html>
