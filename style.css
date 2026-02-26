@@ -1,4 +1,4 @@
-* {
+ * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -33,9 +33,10 @@ header {
 
 nav {
   position: absolute;
-  top: 70px;
+  /* top: 70px; */
   right: 0;
   display: flex;
+  padding-right: 80px;
 }
 nav a {
   text-decoration: none;
@@ -256,4 +257,4 @@ footer {
   .menu-toggle {
     display: block;
   }
-}
+} 
