@@ -12,7 +12,7 @@ body {
 }
 
 /* ================= NAVBAR ================= */
-header {
+/* header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,7 +22,7 @@ header {
   top: 0;
   background: transparent;
   z-index: 1000;
-}
+} */
 
 .logo {
   font-size: 22px;
@@ -56,13 +56,24 @@ nav a:hover {
 }
 
 /* ================= HERO ================= */
-.hero {
+ .hero {
   min-height: 100vh;
-  padding-top: 120px;
+  /* padding-top: 120px; */
   text-align: center;
   position: relative;
+} 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: #0d1633;
+  z-index: 1000;
+  height: 80px;
 }
-
 .moon {
   width: 120px;
   height: 120px;
@@ -192,9 +203,9 @@ footer {
 
   nav {
     position: absolute;
-    top: 70px;
+    top: 50px;
     right: 0;
-    left:20px;
+    left:10px;
     background: #0d1633;
     flex-direction: column;
     width: 200px;
@@ -204,6 +215,7 @@ footer {
 
   nav a {
     margin: 15px 0;
+    padding-left: 20px;
   }
 
   nav.active {
